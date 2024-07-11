@@ -80,6 +80,13 @@ img{
     transform: translateY(0);
     transition-delay: 1s;
 }
+        @media only screen and (max-width: 600px) {
+    /* Custom styles for mobile devices */
+    body {
+        font-size: 14px;
+    }
+    /* Add other styles to make the desktop view more readable on mobile */
+}
 
     </style>
 </head>
@@ -310,6 +317,15 @@ img{
             window.addEventListener('scroll', fadeInOnScroll);
             fadeInOnScroll(); // Run the function once to show elements already in view on load
         });
+
+        function setDesktopView() {
+        var viewport = document.getElementById('viewport');
+        viewport.setAttribute('content', 'width=1024');
+    }
+
+    if (window.innerWidth < 1024) {
+        setDesktopView();
+    }
     </script>
 </body>
 </html>
