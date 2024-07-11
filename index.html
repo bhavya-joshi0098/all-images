@@ -8,288 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Manrope:wght@200..800&display=swap');
-*{
-    color: white;
-    font-family: "Manrope", sans-serif;    
-}
-#Navbar{
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fblack-menu-background&psig=AOvVaw0L49ryAKhNbAKgRPE7ulme&ust=1720431550904000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjeio7RlIcDFQAAAAAdAAAAABAE);
-}
-#html_skill_font{
-  color: black; 
-  padding-top: 100px; 
-  padding-left: 50px; 
-  font-size: 30px
-
-}
-#css_skill_font{
-  color: black; 
-  font-size: 30px; 
-  padding-top: 40px; 
-  padding-left: 50px
-
-}
-#java-script_skill_font{
-  color: black; 
-  font-size: 30px; 
-  padding-top: 80px; 
-  padding-left:50px;
-
-}
-#python_skill_font{
-  color: black; 
-  font-size: 30px; 
-  padding-top: 30px; 
-  padding-left:35px;
-
-}
-#bootstrap_skill_font{
-  color: black; 
-  font-size: 30px; 
-  padding-top: 80px; 
-  padding-left:55px;
-
-}
-#django_skill_font{
-  color: black; 
-  font-size: 30px; 
-  padding-top: 30px;
-  padding-left:35px;
-}
-#tic-tac-toe_project_font{
-  color: black; 
-  padding-top:150px;
-  padding-left:130px; 
-  font-size:20px;
-}
-#PORTFOLIO_project_font{
-  color: black; 
-  padding-top:150px;
-  padding-left:125px; 
-  font-size:20px; 
-}
-#TO-DO-LIST_project_font{
-  color: black; 
-  padding-top:150px;
-  padding-left:120px; 
-  font-size:20px; 
-}
-#shopping-website_project_font{
-  color: black; 
-  padding-top:150px;
-  padding-left:130px; 
-  font-size:20px;
-}
-#quiz-app_project_font{
-  color: black; 
-  padding-top:150px;
-  padding-left:130px; 
-  font-size:20px; 
-}
-#calculator_project_font{
-  color: black; 
-  padding-top:150px;
-  padding-left:120px; 
-  font-size:20px;
-}
-div{
-    padding: 5px;
-
-}
-body{
-    background-image: url(https://backgroundabstract.com/wp-content/uploads/edd/2022/01/seamless-gold-rhombus-grid-pattern-black-background_53876-97589-e1656078509842.jpg);
-}
-hr{
-    border: 5px solid white;
-}
-img{
-    mask-image: url(https://github.com/bhavya-joshi0098/all-images/blob/main/WhatsApp%20Image%202024-07-08%20at%2011.45.14_750405b7.jpg?raw=true);
-    background-size:cover;
-    height: 190px;
-    padding-left: 200px;
-    background-repeat: repeat;
-    -webkit-mask-image: url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMjQ4LCAxMTcsIDU1LCAxKSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDI1MSwgMTY4LCAzMSwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMjMuOCwtMjQuM0MzMC41LC0xNy4xLDM1LjMsLTguNSwzMy44LC0xLjVDMzIuMyw1LjUsMjQuNSwxMS4xLDE3LjgsMTcuOUMxMS4xLDI0LjYsNS41LDMyLjcsLTIuOSwzNS41Qy0xMS4yLDM4LjQsLTIyLjUsMzYuMSwtMjkuOCwyOS4zQy0zNy4xLDIyLjUsLTQwLjQsMTEuMiwtMzkuOCwwLjZDLTM5LjIsLTEwLC0zNC42LC0yMCwtMjcuMywtMjcuMkMtMjAsLTM0LjQsLTEwLC0zOC44LC0wLjcsLTM4LjFDOC41LC0zNy4zLDE3LjEsLTMxLjUsMjMuOCwtMjQuM1oiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUwIDUwKSIgc3Ryb2tlLXdpZHRoPSIwIiBzdHlsZT0idHJhbnNpdGlvbjogYWxsIDAuM3MgZWFzZSAwczsiPjwvcGF0aD4KICAgICAgICAgICAgICA8L3N2Zz4=);
-
-}
-.triangle_down{
-    width: 200px;
-    height: 200px;
-   object-fit: cover;
-   background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148828506.jpg);
-   background-size: cover;
-   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-   padding-right: 20px;
-   margin-bottom: 20px;
-   
-}
-.triangle_up{
-    width: 200px;
-    height: 200px;
-   object-fit: cover;
-   background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148828506.jpg);
-   background-size: cover;
-   clip-path: polygon(100% 0%,0% 0%,50% 100%);
-   padding-right: 20px;
-   
-}
-.circle{
-    background-image: url(https://github.com/bhavya-joshi0098/all-images/blob/main/image.png?raw=true);
-    height: 350px;
-    width: 350px;
-    background-size: cover;
-    padding-bottom: 0%;
-}
-.card_styling{
-    margin-top: 90px;
-    padding-left: 50px;
-/*     margin-left: 170px; */
-}
-.fade-in-section {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 1s ease-out, transform 1s ease-out;
-}
-
-.fade-in-section.visible {
-    opacity: 1;
-    transform: translateY(0);
-    transition-delay: 1s;
-}
-/***************************************************************************************************************************************************************/
-        @media only screen and (max-width: 600px) {
-*{
-    font-size: 8px;
-}
-img{
-  mask-image: url(https://github.com/bhavya-joshi0098/all-images/blob/main/WhatsApp%20Image%202024-07-08%20at%2011.45.14_750405b7.jpg?raw=true);
-  background-size:cover;
-  height: 100px;
-  padding-left: 200px;
-  background-repeat: repeat;
-  -webkit-mask-image: url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMjQ4LCAxMTcsIDU1LCAxKSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDI1MSwgMTY4LCAzMSwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMjMuOCwtMjQuM0MzMC41LC0xNy4xLDM1LjMsLTguNSwzMy44LC0xLjVDMzIuMyw1LjUsMjQuNSwxMS4xLDE3LjgsMTcuOUMxMS4xLDI0LjYsNS41LDMyLjcsLTIuOSwzNS41Qy0xMS4yLDM4LjQsLTIyLjUsMzYuMSwtMjkuOCwyOS4zQy0zNy4xLDIyLjUsLTQwLjQsMTEuMiwtMzkuOCwwLjZDLTM5LjIsLTEwLC0zNC42LC0yMCwtMjcuMywtMjcuMkMtMjAsLTM0LjQsLTEwLC0zOC44LC0wLjcsLTM4LjFDOC41LC0zNy4zLDE3LjEsLTMxLjUsMjMuOCwtMjQuM1oiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUwIDUwKSIgc3Ryb2tlLXdpZHRoPSIwIiBzdHlsZT0idHJhbnNpdGlvbjogYWxsIDAuM3MgZWFzZSAwczsiPjwvcGF0aD4KICAgICAgICAgICAgICA8L3N2Zz4=);
-
-}
-.triangle_down{
-  width: 100px;
-  height: 100px;
- object-fit: cover;
- background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148828506.jpg);
- background-size: cover;
- clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
- padding-right: 20px;
- margin-bottom: 20px;
- 
-}
-.triangle_up{
-  width: 100px;
-  height: 100px;
- object-fit: cover;
- background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148828506.jpg);
- background-size: cover;
- clip-path: polygon(100% 0%,0% 0%,50% 100%);
- padding-right: 20px;
- 
-}
-#html_skill_font{
-  color: black; 
-  padding-top: 50px; 
-  padding-left: 30px; 
-  font-size: 13px
-
-}
-#css_skill_font{
-  color: black; 
-  font-size: 13px; 
-  padding-top: 30px; 
-  padding-left: 30px
-
-}
-#java-script_skill_font{
-  color: black; 
-  font-size: 13px; 
-  padding-top: 40px; 
-  padding-left:30px;
-
-}
-#python_skill_font{
-  color: black; 
-  font-size: 13px; 
-  padding-top: 30px; 
-  padding-left:25px;
-
-}
-#bootstrap_skill_font{
-  color: black; 
-  font-size: 13px; 
-  padding-top: 40px; 
-  padding-left:30px;
-
-}
-#django_skill_font{
-  color: black; 
-  font-size: 13px; 
-  padding-top: 30px;
-  padding-left:25px;
-}
-.circle{
-  background-image: url(https://github.com/bhavya-joshi0098/all-images/blob/main/image.png?raw=true);
-  width: 150px;
-  height: 150px;
-  margin-left: 0;
-  padding-left: 0;
-  background-size: cover;
-  padding-bottom: 0%;
-}
-.card_styling{
-  margin-top: 0;
-  padding-top: 0;
-  width: 150px;
-  font-size: 1px;
- display: block;
-}
-#tic-tac-toe_project_font{
-  color: black; 
-  padding-top:60px;
-  padding-left:45px; 
-  font-size:12px;
-}
-#PORTFOLIO_project_font{
-  color: black; 
-  padding-top:60px;
-  padding-left:46px; 
-  font-size:12px; 
-}
-#TO-DO-LIST_project_font{
-  color: black; 
-  padding-top:60px;
-  padding-left:43px; 
-  font-size:12px; 
-}
-#shopping-website_project_font{
-  color: black; 
-  padding-top:55px;
-  padding-left:47px; 
-  font-size:12px;
-}
-#quiz-app_project_font{
-  color: black; 
-  padding-top:65px;
-  padding-left:48px; 
-  font-size:12px; 
-}
-#calculator_project_font{
-  color: black; 
-  padding-top:65px;
-  padding-left:40px; 
-  font-size:11px;
-}
-   
-
-}
-
-    </style>
 </head>
 <body>
     <div class="container-fluid">
@@ -328,7 +46,7 @@ img{
                             </ul>
                           </li>
                           <li class="nav-item">
-                            <a class="btn btn-info" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkHmDGwgjsPRwhtmDGfnsSLCgzNrfrcgHJHZjGdqPfWmxShxwkZwKwzgkPwSSHBTsvcXfm" style="color: white;">CONTACT</a>
+                            <a class="btn btn-info" href="mailto:bhavyarajanjoshi@gmail.com" style="color: white;">CONTACT</a>
                             <!-- <button type="button" class="btn btn-info">contact us</button> -->
                           </li>
                         </ul>
@@ -363,7 +81,7 @@ img{
             </div>
         </div>
         <br><br><br><br><br><br><br>
-        <h4 style="font-size: 40px; padding-bottom: 100px;padding-left:60px;text-decoration:underline">skills</h4>
+        <h4 style="font-size: 40px; padding-bottom: 100px;padding-left:60px;text-decoration:underline; padding-left: 600px;">skills</h4>
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
@@ -385,7 +103,7 @@ img{
           </div>
         </div>
         <br><br><br><br><br><br><br><br><br>
-        <h4 style="font-size: 40px; padding-bottom: 100px;padding-left:60px;text-decoration:underline">Projects</h4>
+        <h4 style="font-size: 40px; padding-bottom: 100px;padding-left:60px;text-decoration:underline; padding-left: 600px;">Projects</h4>
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12 fade-in-section">
@@ -482,51 +200,45 @@ img{
         </div>
         <div class="row" id="education">
             <div class="col-md-12">
+              <h4 style="padding-bottom: 30px; font-size: 30px; text-decoration: underline; color:white; padding-left: 600px;" class="fade-in-section">EDUCATION</h4>
+              <div class="container-fluid background_div fade-in-section">
+                I received my foundational education at St. Xavier's School Bhuj, where I studied from 1st to 10th standard. After completing my 10th standard, I pursued a diploma in Computer Engineering from Polytechnic College Bhuj. Throughout my academic journey, I demonstrated strong technical skills and a passion for web development and C++ programming. I gained practical experience through internships with several online companies, where I consistently achieved high marks and successfully completed numerous projects. These experiences have equipped me with a solid foundation in both theoretical knowledge and practical application, making me a proficient and versatile web designer.
+                </div>
             </div>
         </div>
         <div class="row" id="work_experience">
             <div class="col-md-12">
+              <h4 style="padding-bottom: 30px; font-size: 30px; text-decoration: underline; color:white; padding-top: 150px; padding-left: 600px;"class="fade-in-section">WORK EXPERIENCE</h4>
+              <div class="container-fluid background_div fade-in-section">
+                Throughout my career, I have completed internships at several esteemed companies, including SDM, Brainy_Beans, DIT, IANT, NEO_Teaching_Hub, WayToWeb, and many others. These experiences have enabled me to learn a wide array of programming languages such as C, C++, Java, Python, JavaScript, SQL, HTML, CSS, and PHP. Additionally, I have gained proficiency in frameworks like Django, Bootstrap, Angular, Laravel, web2py, and Bottle. These opportunities have significantly enhanced my technical skills and prepared me for a dynamic career in web design and development.
+              </div>
             </div>
         </div>
         <div class="row" id="why_me">
             <div class="col-md-12">
+              <h4 style="padding-bottom: 30px; font-size: 30px; text-decoration: underline; color:white; padding-top: 150px;padding-left: 600px;" class="fade-in-section">why me ?</h4>
+              <div class="container-fluid background_div fade-in-section">
+                As an experienced web designer with a strong educational foundation and diverse technical skills, I have interned with top companies and mastered numerous programming languages and frameworks. My proven track record in web development and C++ programming makes me a crucial asset for innovative web solutions.
+              </div>
             </div>
         </div>
         <div class="row" id="contact_us">
             <div class="col-md-12">
+              <footer>
+                <h4 style="padding-bottom: 30px; font-size: 30px; text-decoration: underline; color:white; padding-top: 150px; padding-left: 600px;" class="fade-in-section">CONTACT</h4>
+                <div id="footer_style" class="fade-in-section">
+                  <LAbel>PHONE:-</LAbel>
+                  <a href="tel:+9909533283">PHONE:- 9909533283</a><br>
+                  <Label>PORTFOLIO</Label>
+                  <a href="https://portfolio-bhavya-0098.netlify.app/">PORTFOLIO</a><br>
+                  <Label>EMAIL</Label>
+                  <a href="mailto:bhavyarajanjoshi@gmail.com">bhavyarajanjoshi@gmail.com</a>
+                </div>
+                </footer>
             </div>
         </div>
     </div>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const fadeInSections = document.querySelectorAll('.fade-in-section');
-        
-            const fadeInOnScroll = () => {
-                const triggerBottom = window.innerHeight * 0.9;
-        
-                fadeInSections.forEach(section => {
-                    const sectionTop = section.getBoundingClientRect().top;
-        
-                    if(sectionTop < triggerBottom) {
-                        section.classList.add('visible');
-                    } else {
-                        section.classList.remove('visible');
-                    }
-                });
-            }
-        
-            window.addEventListener('scroll', fadeInOnScroll);
-            fadeInOnScroll(); // Run the function once to show elements already in view on load
-        });
-
-        function setDesktopView() {
-        var viewport = document.getElementById('viewport');
-        viewport.setAttribute('content', 'width=1024');
-    }
-
-    if (window.innerWidth < 1024) {
-        setDesktopView();
-    }
+    <script src="script.js">
     </script>
 </body>
 </html>
