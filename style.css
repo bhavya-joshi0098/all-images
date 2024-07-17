@@ -3,7 +3,7 @@
 *{
     color: white;
     font-family: "Manrope", sans-serif;   
-    font-size: 35px;
+    font-size: 10px;
 }
 
 #Navbar{
@@ -11,86 +11,86 @@
 }
 #html_skill_font{
   color: black; 
-  padding-top: 180px; 
-  padding-left: 110px; 
-  font-size: 50px
+  padding-top: 100px; 
+  padding-left: 50px; 
+  font-size: 40px
 
 }
 #css_skill_font{
   color: black; 
-  font-size: 50px; 
-  padding-top: 100px; 
-  padding-left: 110px
+  font-size: 40px; 
+  padding-top: 50px; 
+  padding-left: 60px
 
 }
 #java-script_skill_font{
   color: black; 
-  font-size: 50px; 
-  padding-top: 130px; 
-  padding-left:120px;
+  font-size: 40px; 
+  padding-top: 80px; 
+  padding-left:50px;
 
 }
 #python_skill_font{
   color: black; 
-  font-size: 50px; 
-  padding-top: 100px; 
-  padding-left:80px;
+  font-size: 35px; 
+  padding-top: 30px; 
+  padding-left:30px;
 
 }
 #bootstrap_skill_font{
   color: black; 
-  font-size: 50px; 
-  padding-top: 145px; 
-  padding-left:110px;
+  font-size: 35px; 
+  padding-top: 90px; 
+  padding-left:50px;
 
 }
 #django_skill_font{
   color: black; 
-  font-size: 50px; 
-  padding-top: 100px;
-  padding-left:100px;
+  font-size: 35px; 
+  padding-top: 30px;
+  padding-left:30px;
 }
 #tic-tac-toe_project_font{
   color: black; 
-  padding-top:210px;
-  padding-left:155px; 
-  font-size:50px;
+  padding-top:125px;
+  padding-left:100px; 
+  font-size:20px;
 }
 #PORTFOLIO_project_font{
   color: black; 
-  padding-top:210px;
-  padding-left:145px; 
-  font-size:50px; 
+  padding-top:140px;
+  padding-left:105px; 
+  font-size:20px; 
 }
 #TO-DO-LIST_project_font{
   color: black; 
-  padding-top:210px;
-  padding-left:140px; 
-  font-size:48px; 
+  padding-top:130px;
+  padding-left:100px; 
+  font-size:20px; 
 }
 #shopping-website_project_font{
   color: black; 
-  padding-top:200px;
-  padding-left:160px; 
-  font-size:48px;
+  padding-top:120px;
+  padding-left:110px; 
+  font-size:20px;
 }
 #quiz-app_project_font{
   color: black; 
-  padding-top:230px;
-  padding-left:150px; 
-  font-size:50px; 
+  padding-top:140px;
+  padding-left:100px; 
+  font-size:20px; 
 }
 #calculator_project_font{
   color: black; 
-  padding-top:230px;
-  padding-left:145px; 
-  font-size:40px;
+  padding-top:130px;
+  padding-left:90px; 
+  font-size:20px;
 }
 a#footer_style{
   color: white;
 }
 .background_div{
-  font-size: 50px;
+  font-size: 25px;
   background-image: url(data:image/jpeg;base64,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);
   border-radius: 10px;
 }
@@ -114,15 +114,15 @@ img{
 }
 h4{
   padding-bottom: 30px; 
-  font-size: 100px; 
+  font-size: 60px; 
   text-decoration: underline; 
   color:white; 
   padding-top: 150px; 
   padding-left: 50px;
 }
 .triangle_down{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
    object-fit: cover;
    background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148828506.jpg);
    background-size: cover;
@@ -132,8 +132,8 @@ h4{
    
 }
 .triangle_up{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
    object-fit: cover;
    background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148828506.jpg);
    background-size: cover;
@@ -143,8 +143,8 @@ h4{
 }
 .circle{
     background-image: url(https://github.com/bhavya-joshi0098/all-images/blob/main/image.png?raw=true);
-    height: 550px;
-    width: 550px;
+    height: 300px;
+    width: 300px;
     background-size: cover;
     padding-bottom: 0%;
 }
@@ -165,7 +165,7 @@ h4{
     transition-delay: 1s;
 }
 span{
-  font-size: 80px;
+  font-size: 30px;
   color: yellow;
 }
 }
