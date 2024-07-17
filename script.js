@@ -45,7 +45,7 @@ window.onscroll = () => {
 };
 let typed = new Typed('.name', {
     strings: ["JOSHI BHAVYA","A WEB DEVELOPER"],
-    typeSpeed: 150,
+    typeSpeed: 200,
     loop: true,
     backspeed:150,
   })
