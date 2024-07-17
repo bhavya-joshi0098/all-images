@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
+  <header>
+       <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary-p-3" id="Navbar">
@@ -22,27 +24,27 @@
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"style="color: white;">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home"style="color: white;">Home</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">Introduction</a>
+                            <a class="nav-link" href="#introduction" style="color: white;">Introduction</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">SKILLS</a>
+                            <a class="nav-link" href="#skills" style="color: white;">SKILLS</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">PROJECTS</a>
+                            <a class="nav-link" href="#projects" style="color: white;">PROJECTS</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">WHY ME</a>
+                            <a class="nav-link" href="#why_me" style="color: white;">WHY ME</a>
                           </li>
                           <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
                               Dropdown
                             </a>
                             <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="https://www.google.com">EDUCTATION</a></li>
-                              <li><a class="dropdown-item" href="https://www.google.com">WORK EXPERIENCE</a></li>
+                              <li><a class="dropdown-item" href="#education">EDUCTATION</a></li>
+                              <li><a class="dropdown-item" href="#work_experience">WORK EXPERIENCE</a></li>
                             </ul>
                           </li>
                           <li class="nav-item">
@@ -59,15 +61,18 @@
                   </nav>
             </div>
         </div>
+        </div>
+        </header>
         <hr>
+        <section id="home"></section>
+        <section id="introduction">
         <div class="row">
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-6 fade-in-section">
-                        <h2>
-                            JOSHI BHAVYA
-                        </h2>
-                        <p>
+                        <h1>I AM <span class="name"></span>
+                        </h1>
+                         <p>
                             I am a web developer with expertise in HTML, CSS, JavaScript, Python, Django, and Bootstrap, coupled with extensive market experience. My diverse skill set allows me to create dynamic and responsive web applications.
                         </p>
                         <p>
@@ -80,8 +85,10 @@
                 </div>
             </div>
         </div>
+        </section>
         <br><br><br><br><br><br><br>
-        <h4 style="font-size: 40px; padding-bottom: 100px;padding-left:60px;text-decoration:underline;">skills</h4>
+        <section id="skills">
+        <h4>skills</h4>
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
@@ -102,8 +109,10 @@
             </div>
           </div>
         </div>
+        </section>
         <br><br><br><br><br><br><br><br><br>
-        <h4 style="font-size: 40px; padding-bottom: 100px;padding-left:60px;text-decoration:underline;">Projects</h4>
+        <section id="projects">
+        <h4>Projects</h4>
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12 fade-in-section">
@@ -198,37 +207,44 @@
             </div>
           </div>
         </div>
+        </section>
+        <section id="education">
         <div class="row" id="education">
             <div class="col-md-12">
-              <h4 style="padding-bottom: 30px; font-size: 30px; text-decoration: underline; color:white;" class="fade-in-section">EDUCATION</h4>
+              <h4 class="fade-in-section">EDUCATION</h4>
               <div class="container-fluid background_div fade-in-section">
                 I received my foundational education at St. Xavier's School Bhuj, where I studied from 1st to 10th standard. After completing my 10th standard, I pursued a diploma in Computer Engineering from Polytechnic College Bhuj. Throughout my academic journey, I demonstrated strong technical skills and a passion for web development and C++ programming. I gained practical experience through internships with several online companies, where I consistently achieved high marks and successfully completed numerous projects. These experiences have equipped me with a solid foundation in both theoretical knowledge and practical application, making me a proficient and versatile web designer.
                 </div>
             </div>
         </div>
+        </section>
+        <section id="work_experience">
         <div class="row" id="work_experience">
             <div class="col-md-12">
-              <h4 style="padding-bottom: 30px; font-size: 30px; text-decoration: underline; color:white; padding-top: 150px;"class="fade-in-section">WORK EXPERIENCE</h4>
+              <h4 class="fade-in-section">WORK EXPERIENCE</h4>
               <div class="container-fluid background_div fade-in-section">
                 Throughout my career, I have completed internships at several esteemed companies, including SDM, Brainy_Beans, DIT, IANT, NEO_Teaching_Hub, WayToWeb, and many others. These experiences have enabled me to learn a wide array of programming languages such as C, C++, Java, Python, JavaScript, SQL, HTML, CSS, and PHP. Additionally, I have gained proficiency in frameworks like Django, Bootstrap, Angular, Laravel, web2py, and Bottle. These opportunities have significantly enhanced my technical skills and prepared me for a dynamic career in web design and development.
               </div>
             </div>
         </div>
+        </section>
+        <section id="why_me">
         <div class="row" id="why_me">
             <div class="col-md-12">
-              <h4 style="padding-bottom: 30px; font-size: 30px; text-decoration: underline; color:white; padding-top: 150px;" class="fade-in-section">why me ?</h4>
+              <h4 class="fade-in-section">why me ?</h4>
               <div class="container-fluid background_div fade-in-section">
                 As an experienced web designer with a strong educational foundation and diverse technical skills, I have interned with top companies and mastered numerous programming languages and frameworks. My proven track record in web development and C++ programming makes me a crucial asset for innovative web solutions.
               </div>
             </div>
         </div>
+        </section>
+        <section id="contact_us">
         <div class="row" id="contact_us">
             <div class="col-md-12">
-              <footer>
-                <h4 style="padding-bottom: 30px; font-size: 30px; text-decoration: underline; color:white; padding-top: 150px;" class="fade-in-section">CONTACT</h4>
-                 <footer style="background-image: url(https://t3.ftcdn.net/jpg/05/00/76/76/360_F_500767676_mZzz2hyDsFsiZksszm6dSfgHX6cI3M9T.jpg);border-radius: 10px;">
+                <h4 class="fade-in-section">CONTACT</h4>
+                <footer style="background-image: url(https://t3.ftcdn.net/jpg/05/00/76/76/360_F_500767676_mZzz2hyDsFsiZksszm6dSfgHX6cI3M9T.jpg);border-radius: 10px;">
                   <LAbel>PHONE:-</LAbel>
-                  <a href="tel:+9909533283">9909533283</a><br>
+                  <a href="tel:+9909533283">PHONE:- 9909533283</a><br>
                   <Label>PORTFOLIO</Label>
                   <a href="https://portfolio-bhavya-0098.netlify.app/">PORTFOLIO</a><br>
                   <Label>EMAIL</Label>
@@ -236,6 +252,7 @@
                 </footer>
             </div>
         </div>
+        </section>
     </div>
     <script src="script.js">
     </script>
