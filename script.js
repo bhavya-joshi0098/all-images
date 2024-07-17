@@ -27,3 +27,25 @@ document.addEventListener("DOMContentLoaded", function() {
     if (window.innerWidth < 1024) {
         setDesktopView();
     }
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
+window.onscroll = () => {
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
+        if(top >= offset && top < offset + height) {
+            navLinks.forEach(links => {
+                links.classList.remove('active');
+                document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+            });
+        };
+    });
+};
+let typed = new Typed('.name', {
+    strings: ["JOSHI BHAVYA","A WEB DEVELOPER"],
+    typeSpeed: 150,
+    loop: true,
+    backspeed:150,
+  })
