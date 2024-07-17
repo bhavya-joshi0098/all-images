@@ -44,7 +44,7 @@ window.onscroll = () => {
     });
 };
 let typed = new Typed('.name', {
-    strings: ["JOSHI BHAVYA","A WEB DEVELOPER"],
+    strings: ["A WEB DEVELOPER","JOSHI BHAVYA"],
     typeSpeed: 50,
     loop: true,
     backspeed:150,
