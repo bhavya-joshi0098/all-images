@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Manrope:wght@200..800&display=swap');
-@media only screen and (max-width: 768px){
 *{
     color: white;
     font-family: "Manrope", sans-serif;   
@@ -167,7 +166,6 @@ h4{
 span{
   font-size: 30px;
   color: yellow;
-}
 }
 /***************************************************************************************************************************************************************/
         @media only screen and (max-width: 600px) {
